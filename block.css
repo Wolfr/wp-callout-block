@@ -1,0 +1,22 @@
+.notice-box {
+  background: #EEE;
+   padding: 1.6rem;
+}
+
+.notice-box--highlight {
+  background: #FFC;
+}
+
+@media (prefers-color-scheme: dark) {
+	.notice-box {
+       background: #333;
+    }
+}
+
+.notice-box p {
+  margin-bottom: 0;
+}
+
+.notice-box p:first-child {
+	margin: 0;
+}
