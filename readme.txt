@@ -10,5 +10,7 @@ A simple callout block.
 
 This plugin does not output any CSS.
 
-To implement, add the SCSS partial contained in this plugin to the front-end.
+To implement, add the files in the place-in-theme folder to the theme.
 
+* SCSS partial: add it to your SCSS logic
+* block-editor.css: place this in the root of your theme.
