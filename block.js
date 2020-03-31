@@ -1,8 +1,6 @@
-/* This section of the code registers a new block, sets an icon and a category, and indicates what type of fields it'll include. */
- 
 var el = wp.element.createElement;
 
-wp.blocks.registerBlockType('jr/callout-box', {
+wp.blocks.registerBlockType('jr/callout-box-2', {
 
   title: 'Callout Box',
   icon: 'tide',
@@ -12,9 +10,7 @@ wp.blocks.registerBlockType('jr/callout-box', {
     type: { type: 'string', default: 'default' }, // Notice box type for loading the appropriate CSS class. Default class is 'default'.
     content: { type: 'array', source: 'children', selector: 'p' } /// Notice box content in p tag
   },
-  
-  /* This configures how the content and color fields will work, and sets up the necessary elements */
-  
+
   edit: function(props) {
   
        function updateContent( newdata ) {
