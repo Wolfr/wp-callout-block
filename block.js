@@ -27,7 +27,7 @@ wp.blocks.registerBlockType('jr/callout-box', {
  
        return el( 'div',
           {
-             className: 'notice-box notice-box--' + props.attributes.type
+             className: 'c-callout-box c-callout-box--' + props.attributes.type
           },
           el(
              'select',
@@ -54,7 +54,7 @@ wp.blocks.registerBlockType('jr/callout-box', {
     save: function(props) {
        return el( 'div',
           {
-             className: 'notice-box notice-box--' + props.attributes.type
+             className: 'c-callout-box c-callout-box--' + props.attributes.type
           },
           el( wp.editor.RichText.Content, {
              tagName: 'p',
