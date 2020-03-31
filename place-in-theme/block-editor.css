@@ -1,5 +1,16 @@
-/* Styles for in wp-admin */
-.c-callout-box {
+/*
+  Styles for in wp-admin, so you can see what is going on in the editor, without needing these styles on the  front-end
+*/
+
+.notice-box {
   background: #EEE;
-  padding: 12px;
+  padding: 16px;
+}
+
+.notice-box p {
+  margin-bottom: 1rem;
+}
+
+.notice-box p:last-child {
+  margin-bottom: none;
 }

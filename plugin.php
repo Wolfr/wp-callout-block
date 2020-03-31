@@ -4,7 +4,7 @@
  * Plugin Name: Callout block
  * Author: Johan Ronsse
  * Description: A simple Gutenberg block to add a callout
- * Version: 1.3.0
+ * Version: 1.3.1
  */
 
 // Load assets for wp-admin when editor is active
