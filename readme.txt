@@ -7,3 +7,8 @@ Requires PHP: 5.2.4
 License: MIT
 
 A simple callout block.
+
+This plugin does not output any CSS.
+
+To implement, add the SCSS partial contained in this plugin to the front-end.
+

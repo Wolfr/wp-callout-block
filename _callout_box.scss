@@ -1,0 +1,21 @@
+/* ==========================================================================
+  Callout box
+   ========================================================================== */
+
+.c-callout-box {
+  background: $gray-10;
+   padding: 1.6rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c-callout-box {
+       background: $gray-95;
+    }
+}
+
+.c-callout-box p {
+  margin-bottom: 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
